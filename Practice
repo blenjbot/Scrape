@@ -1,0 +1,12 @@
+def greet(name):
+    print(f"Hello, {name}!")
+
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+if __name__ == '__main__':
+    # This code will only run when the script is executed directly
+    greet("World")
+    obj = MyClass(10)
+    print(f"MyClass object value: {obj.value}")
